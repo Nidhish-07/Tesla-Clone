@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        model3: "url('/src/assets/images/model-3.jpg')",
-        modelS: "url('/src/assets/images/model-s.jpg')",
-        modelX: "url('/src/assets/images/model-x.jpg')",
-        modelY: "url('/src/assets/images/model-y.jpg')",
-        accessories: "url('/src/assets/images/accessories.jpg')",
-        solarPanels: "url('/src/assets/images/solar-panel.jpg')",
-        solarRoof: "url('/src/assets/images/solar-roof.jpg')",
+        model3: "url('/images/model-3.jpg')",
+        modelS: "url('/images/model-s.jpg')",
+        modelX: "url('/images/model-x.jpg')",
+        modelY: "url('/images/model-y.jpg')",
+        accessories: "url('/images/accessories.jpg')",
+        solarPanels: "url('/images/solar-panel.jpg')",
+        solarRoof: "url('/images/solar-roof.jpg')",
       },
       animation: {
         arrowDownAnimate: "arrowDown infinite 2s",

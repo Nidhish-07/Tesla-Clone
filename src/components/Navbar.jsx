@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from "/src/assets/images/logo.svg";
+import Logo from "/images/logo.svg";
 import Sidebar from "./Sidebar";
 
 const Navbar = () => {
