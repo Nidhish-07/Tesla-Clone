@@ -39,17 +39,17 @@ const Homepage = () => {
         buttonRightText="Learn More"
       />
       <HeroSection
-        title="Solar Roofs"
-        info="Produce Clean Energy From Your Roofs"
-        bgImg="bg-solarRoofs"
+        title="Solar Roof"
+        info="Produce Clean Energy From Your Roof"
+        bgImg="bg-solarRoof"
         buttonLeftText="Order Now"
         buttonRightText="Learn More"
       />
       <HeroSection
         title="Accessories"
         bgImg="bg-accessories"
-        
         buttonLeftText="Shop Now"
+        i="7"
       />
     </div>
   );

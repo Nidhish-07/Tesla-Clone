@@ -6,7 +6,7 @@ import Homepage from "./pages/Homepage";
 const PageOutlet = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Outlet />
     </div>
   );

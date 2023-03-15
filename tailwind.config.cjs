@@ -10,7 +10,7 @@ module.exports = {
         modelY: "url('./src/assets/images/model-y.jpg')",
         accessories: "url('./src/assets/images/accessories.jpg')",
         solarPanels: "url('./src/assets/images/solar-panel.jpg')",
-        solarRoofs: "url('./src/assets/images/solar-roof.jpg')",
+        solarRoof: "url('./src/assets/images/solar-roof.jpg')",
       },
       animation: {
         arrowDownAnimate: "arrowDown infinite 2s",
