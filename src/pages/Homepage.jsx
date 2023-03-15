@@ -23,6 +23,7 @@ const Homepage = () => {
         bgImg="bg-modelS"
         buttonLeftText="Custom Order"
         buttonRightText="View Inventory"
+        underline="true"
       />
       <HeroSection
         title="Model X"
@@ -30,6 +31,7 @@ const Homepage = () => {
         bgImg="bg-modelX"
         buttonLeftText="Custom Order"
         buttonRightText="View Inventory"
+        underline="true"
       />
       <HeroSection
         title="Solar Panels"

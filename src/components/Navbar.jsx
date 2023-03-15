@@ -1,9 +1,11 @@
 import React from "react";
 
 import Logo from "../assets/images/logo.svg";
-
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
+  const [active, setActive] = React.useState(false);
+
   return (
     <div className="flex xl:justify-around justify-between  min-h-[60px] fixed items-center py-0 px-5 top-0 left-0 right-0">
       <div className=" mr-8">
@@ -41,10 +43,14 @@ const Navbar = () => {
         <div className=" hidden xl:block flex-nowrap cursor-pointer hover:bg-[#cad6de] py-1 px-4 rounded hover:bg-opacity-70 transition-all duration-500">
           <a>Account</a>
         </div>
-        <div className="flex-nowrap cursor-pointer bg-[#b2b5b7] bg-opacity-70 xl:bg-transparent hover:bg-[#cad6de] py-1 px-4 rounded hover:bg-opacity-70 transition-all duration-500 ">
+        <div
+          className="flex-nowrap cursor-pointer bg-[#b2b5b7] bg-opacity-70 xl:bg-transparent hover:bg-[#cad6de] py-1 px-4 rounded hover:bg-opacity-70 transition-all duration-500"
+          onClick={() => setActive(true)}
+        >
           <a>Menu</a>
         </div>
       </div>
+      <Sidebar active={active} onSetActive={setActive} />
     </div>
   );
 };
